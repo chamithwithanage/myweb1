@@ -1,23 +1,30 @@
+import img1 from "../assets/images/project/img1.jpg";
+import img2 from "../assets/images/project/img2.jpg";
+import img3 from "../assets/images/project/img3.jpg";
+
+
 export default function Projects() {
+    
+    
     const projects = [
         {
             title: "Travel Website",
             description: "A responsive travel website built with React and Tailwind CSS.",
-            image: "src/assets/images/project/img1.jpg",
+            image: img1,
             github: "https://github.com/chamithwithanage/tourism-website1",
             demo: "#",
         },
         {
             title: "E-Commerce App",
             description: "Online shopping web application with React and API integration.",
-            image: "src/assets/images/project/img2.jpg",
+            image: img2,
             github: "#",
             demo: "#",
         },
         {
             title: "Portfolio Website",
             description: "Personal developer portfolio with modern UI design.",
-            image: "src/assets/images/project/img3.jpg",
+            image: img3,
             github: "#",
             demo: "#",
         },
